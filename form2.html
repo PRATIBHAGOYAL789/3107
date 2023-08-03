@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head >
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        button{   
+         color: brown;
+            background-color: aquamarine;
+            font-size: 20px;
+            color:black;
+            border-radius: 30;
+            border-color: blueviolet;
+            margin: 50px;
+            padding: auto;
+        }
+        .input__4{
+            color: red;
+            background-color: black;
+        }
+        </style>
+</head>
+<body>
+    <form style="background-color: antiquewhite";>
+        <label style="color:blue";>
+           <b>FIRST NAME:</b>
+        </label>
+        <input type="text"placeholder="enter name">  
+        <br>
+        <label style ="color:blue";>
+            <b>LAST NAME:</b>
+        </label>     
+           <input type="text"placeholder="enter name">  
+           <br>
+           <label style="color:blue";>
+        <b>E-mail:</b>
+        </label>
+        </label> 
+        <input type="email"placeholder="enter email">  
+        <br>
+        <label style="color: blue;">
+            <b>DOB:</b>
+        </label>
+        <input type="number" placeholder="DOB">
+        <br>
+        <label style="color: blue";>
+            <b>ADD:</b>
+        </label>
+        <input type="text" readonly placeholder="address">
+        <br>
+        <label style="color: blue;">
+           <b>Ph No.:</b>
+        </label>
+        <input type="number" required  max length ="10"placeholder="ph no.">
+        <br>
+        <input type="date"min="2022-01-02">
+        <br>
+        <label>
+            male
+        </label>
+        <input type="radio" "style= width:40px ; height:50px"; id ="male" name="gender">
+        <label>
+            female
+        </label>
+        <input type="radio" id="female" name="gender">
+        <br>
+        <input type="checkbox" id="car" name="transport">
+        <label for="Car">
+            Car
+        </label>
+        <br>
+        <select>
+            <option value="4"> Choose Files</option>
+            <option >1</option>
+            <optgroup label="a"></optgroup>
+            <optgroup label="b"></optgroup>
+            <option>2</option>
+            <option disabled>3</option>
+            <option>4</option>
+        </select>
+        <input class="input__4" type="file" accept="image/* audio/*" multiple>
+        <button> <a href="#"></a><img src="/image/flower.avif" width="70px" height="50px"></button>
+            <i class="fa-solid fa-heart" style="color: brown; font-size:30px;"></i>
+    </form>
+</body>
+</html>
